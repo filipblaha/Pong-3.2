@@ -1,0 +1,138 @@
+<root>
+    <CZ>
+		<profil>
+			<string>Vyber si svuj profil</string>
+			<string>Novy profil</string>
+			<string>Prejmenovat</string>
+			<string>Jazyk</string>
+			<string>Smazat pokrok</string>
+			<string>Opravdu chcete smazat pokrok?</string>
+			<string>[ENTER]</string>
+			<string>Zadej nazev profilu</string>
+			<string>Ur. </string>
+			<string>Uroven </string>
+		</profil>
+		<hlavni>
+			<string>Herni mody</string>
+			<string>Zmena vzhledu</string>
+			<string>Nastaveni</string>
+			<string>Zmena profilu</string>
+			<string>verze </string>
+		</hlavni>
+		<herni_mody>
+			<string>HERNI MODY</string>
+			<string>Klasik</string>
+			<string>Rogue like</string>
+			<string>Padajici bloky</string>
+		</herni_mody>
+		<vzhled_plosiny>
+			<string>ZMENA VZHLEDU</string>
+			<string>Plosina</string>
+			<string>Mic</string>
+			<string>Odemkne se na urovni  </string>
+		</vzhled_plosiny>
+		<nastaveni>
+			<string>NASTAVENI</string>
+			<string>Ovladani</string>
+			<string>Jazyk</string>
+			<string>Cesky</string>
+			<string>Anglicky</string>
+		</nastaveni>
+		<ovladani>
+			<string>OVLADANI</string>
+			<string>Ovladani v menu</string>
+			<string>Enter</string>
+			<string>Ovladani ve hre</string>
+			<string>Pohyb - vlevo</string>
+			<string>Pohyb - vpravo</string>
+			<string>Pouzit schopnost</string>
+			<string>Pauza</string>
+			<string>Mezernik</string>			
+			<string>Backspace</string>
+			<string>Delete</string>
+			<string>Escape</string>
+			<string>Enter</string>
+			<string>Tab</string>
+		</ovladani>
+		<konec_kola>
+			<string>Zkus to znovu.</string>
+			<string>VYHRAL JSI!</string>
+			<string>Restart[MEZERNIK]</string>
+			<string>Menu[Q]</string>
+			<string>NEJLEPSI CAS: </string>
+			<string>Dosazeny cas: </string>
+			<string>Bloku zbylo: </string>
+			<string>Uroven </string>
+			<string>Bloku zniceno: </string>
+			<string>NEJVICE ZNICENYCH BLOKU: </string>
+		</konec_kola>
+    </CZ>
+	<EN>
+		<profil>
+			<string>Choose your profile</string>
+			<string>New profile</string>
+			<string>Rename</string>
+			<string>Language</string>
+			<string>Delete progress</string>
+			<string>Do you want to delete progress?</string>
+			<string>[ENTER]</string>
+			<string>Enter a profile name</string>
+			<string>Lvl. </string>
+			<string>Level </string>
+		</profil>
+		<hlavni>
+			<string>Game modes</string>
+			<string>Skins</string>
+			<string>Settings</string>
+			<string>Change Profile</string>
+			<string>version </string>
+		</hlavni>
+		<herni_mody>
+			<string>GAME MODES</string>
+			<string>Classic</string>
+			<string>Rogue like</string>
+			<string>Falling blocks</string>
+		</herni_mody>
+		<vzhled_plosiny>
+			<string>SKINS</string>
+			<string>Platform</string>
+			<string>Ball</string>
+			<string>Unlocks on level </string>
+		</vzhled_plosiny>
+		<nastaveni>
+			<string>SETTINGS</string>
+			<string>Controls</string>
+			<string>Language</string>
+			<string>Czech</string>
+			<string>English</string>
+		</nastaveni>
+		<ovladani>
+			<string>CONTROLS</string>
+			<string>Menu controls</string>
+			<string>Enter</string>
+			<string>In-game controls</string>
+			<string>Movement - left</string>
+			<string>Movement - right</string>
+			<string>Use ability</string>
+			<string>Pause</string>
+			<string>Spacebar</string>
+			<string>Backspace</string>
+			<string>Delete</string>
+			<string>Escape</string>
+			<string>Enter</string>
+			<string>Tab</string>
+		</ovladani>
+		<konec_kola>
+			<string>Try again.</string>
+			<string>YOU'VE WON!</string>
+			<string>Restart [SPACEBAR]</string>
+			<string>Menu [Q]</string>
+			<string>BEST TIME: </string>
+			<string>Your time: </string>
+			<string>Blocks left: </string>
+			<string>Level </string>
+			<string>Blocks destroyed: </string>
+			<string>HIGHSCORE: </string>
+		</konec_kola>
+	</EN>
+</root>
