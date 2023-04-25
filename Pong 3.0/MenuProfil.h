@@ -10,8 +10,8 @@ public:
     {
         Preklad transl;
 
-        set.Prechod(21, 21);
         set.SetFont(0, 20);
+        set.Prechod(21, 21);
         set.SetWindow(delka_menu, vyska_menu - 2);
         MenuSTARTVykresleni();
 

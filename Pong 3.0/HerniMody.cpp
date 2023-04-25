@@ -297,7 +297,7 @@ int HerniMody::Logika(Profily& data)
 	pocet_snimku++;
 
 	//--------  Prohra / Vyhra  --------//
-	if (pocet_bloku == 0)
+	if (pocet_bloku <= 5)
 	{
 		UlozeniDat(data);
 		return 1;
@@ -305,7 +305,7 @@ int HerniMody::Logika(Profily& data)
 	if (mic.y == plosina.y_start + 1)
 	{
 		UlozeniDat(data);
-		if (pocet_zivotu == 1)
+		if (pocet_zivotu == 1 || cas >= 100)
 			return 0;
 		else
 			ZtrataZivotu(data);
@@ -358,8 +358,8 @@ int HerniMody::Logika(Profily& data)
 	}
 
 	//--------  Objekt x Objekt  --------//
-	if (bomba.existence)
-		KolizeObjektObjekt(mic_e, mic.x_d, mic.y_d, mic.x, mic.y, mic.ax, mic.ay, bomba_e, bomba.x_d, bomba.y_d, bomba.x, bomba.y, bomba.ax, bomba.ay);
+	//if (bomba.existence)
+	//	KolizeObjektObjekt(mic_e, mic.x_d, mic.y_d, mic.x, mic.y, mic.ax, mic.ay, bomba_e, bomba.x_d, bomba.y_d, bomba.x, bomba.y, bomba.ax, bomba.ay);
 
 	//--------  Vybuch  --------//
 	if (kolize_s_blokem_vybuch && pocet_snimku % 4 == 1)
